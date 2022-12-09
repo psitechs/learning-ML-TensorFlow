@@ -2,6 +2,7 @@ import os
 import tarfile
 import urllib
 import pandas as pd
+import numpy as np
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml2/master/"
 HOUSING_PATH = os.path.join("datasets", "housing")
